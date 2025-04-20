@@ -203,7 +203,7 @@ const Home = () => {
         </div>
         {/* section 5 */}
         <div className="w-full mx-auto w-[1320px] h-66 flex justify-between items-center">
-          <div className="h-full w-60 bg-yellow-100 flex flex-col justify-between ">
+          <div className="h-full w-60 bg-stone-100 flex flex-col justify-between ">
             <img alt="" className="w-full h-41 bg-green-100" />
             <div className="w-53 h-31 m-auto flex flex-col justify-between">
               <p className="text-12 text-gray-400">UI-UX DESIGN</p>
@@ -220,7 +220,7 @@ const Home = () => {
               </button>
             </div>
           </div>
-          <div className="h-full w-60 bg-yellow-100 flex flex-col justify-between ">
+          <div className="h-full w-60 bg-stone-100 flex flex-col justify-between ">
             <img alt="" className="w-full h-41 bg-green-100" />
             <div className="w-53 h-31 m-auto flex flex-col justify-between">
               <p className="text-12 text-gray-400">UI-UX DESIGN</p>
@@ -237,7 +237,61 @@ const Home = () => {
               </button>
             </div>
           </div>
-          <div className="h-full w-60 bg-yellow-100 flex flex-col justify-between ">
+          <div className="h-full w-60 bg-stone-100 flex flex-col justify-between ">
+            <img alt="" className="w-full h-41 bg-green-100" />
+            <div className="w-53 h-31 m-auto flex flex-col justify-between">
+              <p className="text-12 text-gray-400">UI-UX DESIGN</p>
+              <span className="text-18 text-gray-900 font-600">
+                Product Admin Dashboard
+              </span>
+              <p className="text-12 text-gray-400">
+                Vivamus eleifend convallis ante, non pharetra libero molestie
+                laoreet. Donec id imperdiet lacus.
+              </p>
+              <button type="text" className="mt-2 border border-fuchsia-900 border-[2px] rounded-xl w-32 h-12 px-3 py-6 flex justify-center gap-5 items-center">
+                <p>Case Study</p>
+                <img src={Arrow} alt="arrow" />
+              </button>
+            </div>
+          </div>
+        </div>
+        {/* section 6 */}
+        <div className="w-full mx-auto w-[1320px] h-66 flex justify-between items-center mt-10">
+          <div className="h-full w-60 bg-stone-100 flex flex-col justify-between ">
+            <img alt="" className="w-full h-41 bg-green-100" />
+            <div className="w-53 h-31 m-auto flex flex-col justify-between">
+              <p className="text-12 text-gray-400">UI-UX DESIGN</p>
+              <span className="text-18 text-gray-900 font-600">
+                Product Admin Dashboard
+              </span>
+              <p className="text-12 text-gray-400">
+                Vivamus eleifend convallis ante, non pharetra libero molestie
+                laoreet. Donec id imperdiet lacus.
+              </p>
+              <button type="text" className="mt-2 border border-fuchsia-900 border-[2px] rounded-xl w-32 h-12 px-3 py-6 flex justify-center gap-5 items-center">
+                <p>Case Study</p>
+                <img src={Arrow} alt="arrow" />
+              </button>
+            </div>
+          </div>
+          <div className="h-full w-60 bg-stone-100 flex flex-col justify-between ">
+            <img alt="" className="w-full h-41 bg-green-100" />
+            <div className="w-53 h-31 m-auto flex flex-col justify-between">
+              <p className="text-12 text-gray-400">UI-UX DESIGN</p>
+              <span className="text-18 text-gray-900 font-600">
+                Product Admin Dashboard
+              </span>
+              <p className="text-12 text-gray-400">
+                Vivamus eleifend convallis ante, non pharetra libero molestie
+                laoreet. Donec id imperdiet lacus.
+              </p>
+              <button type="text" className="mt-2 border border-fuchsia-900 border-[2px] rounded-xl w-32 h-12 px-3 py-6 flex justify-center gap-5 items-center">
+                <p>Case Study</p>
+                <img src={Arrow} alt="arrow" />
+              </button>
+            </div>
+          </div>
+          <div className="h-full w-60 bg-stone-100 flex flex-col justify-between ">
             <img alt="" className="w-full h-41 bg-green-100" />
             <div className="w-53 h-31 m-auto flex flex-col justify-between">
               <p className="text-12 text-gray-400">UI-UX DESIGN</p>

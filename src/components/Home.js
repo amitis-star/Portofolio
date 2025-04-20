@@ -124,7 +124,7 @@ const Home = () => {
       </div>
       <div className="container-fluid">
         {/* section 3 */}
-        <div className="w-full h-[700px] mt-30 flex justify-between items-center bg-gray-200 px-10 p-10">
+        <div className="w-full h-[700px] mt-30 flex justify-between items-center bg-gray-200 px-10 p-10 mb-30">
           <div className="h-40 w-71 flex flex-col itmes-between justify-between">
             <p className="text-50 font-600 text-gray-900">Work Process</p>
             <p className="text-gray-500 font-300">
@@ -191,6 +191,20 @@ const Home = () => {
               </div>
             </div>
           </div>
+        </div>
+        {/* section 4 */}
+        <div className="w-full mx-auto flex flex-col items-center justify-between gap-4 mb-17">
+          <span className="text-40 font-500 text-gray-900">Portfolio</span>
+          <span className="w-[577px] h-12 text-center text-20 font-300 text-gray-500">
+            There are many variations of passages of Lorem Ipsum available, but
+            the majority have suffered alteration.
+          </span>
+        </div>
+        {/* section 5 */}
+        <div className="w-full mx-auto w-[1320px] h-66 flex justify-between items-center">
+            <div className="h-full w-60 bg-yellow-100"></div>
+            <div className="h-full w-60 bg-yellow-100"></div>
+            <div className="h-full w-60 bg-yellow-100"></div>
         </div>
       </div>
     </>

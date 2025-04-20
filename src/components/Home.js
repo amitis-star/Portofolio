@@ -1,4 +1,9 @@
 import Download from "../assests/svg/download.svg";
+import Facebook from "../assests/svg/facebook.svg";
+import Ball from "../assests/svg/ball.svg";
+import Be from "../assests/svg/be.svg";
+import Insta from "../assests/svg/insta.svg";
+import In from "../assests/svg/in.svg";
 
 const Home = () => {
   return (
@@ -25,7 +30,7 @@ const Home = () => {
           </button>
         </div>
       </div>
-      {/* first card */}
+      {/* section 1 */}
       <div className="w-full h-73 flex justify-between items-center px-10 mt-10 mb-20">
         <div className="h-full w-[648px]  flex flex-col items-between justify-between">
           <div className="w-full h-51  flex flex-col items-between justify-between">
@@ -63,10 +68,27 @@ const Home = () => {
           <img alt="" />
         </div>
       </div>
-      {/* second card */}
+      {/* section 2 */}
       <div className="w-full h-73 flex justify-between items-center px-10 mt-20 mb-10">
-        <div className="h-full w-72 bg-lime-200 rounded-xl">
+        <div className="h-full w-72 bg-lime-200 rounded-xl relative">
           <img alt="" />
+          <span className="absolute w-43 h-18 bg-white top-69 left-30 flex items-center justify-evenly rounded rounded-xl">
+            <div>
+                <img src={Facebook} alt="Facebook" className="w-12 h-12"/>
+            </div>
+            <div>
+                <img src={Ball} alt="Ball" className="w-12 h-12"/>
+            </div>
+            <div>
+                <img src={Insta} alt="Insta" className="w-12 h-12"/>
+            </div>
+            <div>
+                <img src={In} alt="In" className=""/>
+            </div>
+            <div>
+                <img src={Be} alt="Be" className="w-12 h-12"/>
+            </div>
+          </span>
         </div>
         <div className="h-full w-[648px]  flex flex-col items-between justify-between">
           <div className="w-full h-full  flex flex-col items-between justify-between">
@@ -93,6 +115,10 @@ const Home = () => {
             </div>
           </div>
         </div>
+      </div>
+      {/* section 3 */}
+      <div className="w-full h-[600px] bg-lime-200 mt-60">
+
       </div>
     </div>
   );

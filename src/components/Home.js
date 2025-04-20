@@ -256,7 +256,7 @@ const Home = () => {
           </div>
         </div>
         {/* section 6 */}
-        <div className="w-full mx-auto w-[1320px] h-66 flex justify-between items-center mt-10">
+        <div className="w-full mx-auto w-[1320px] h-66 flex justify-between items-center mt-10 mb-20">
           <div className="h-full w-60 bg-stone-100 flex flex-col justify-between ">
             <img alt="" className="w-full h-41 bg-green-100" />
             <div className="w-53 h-31 m-auto flex flex-col justify-between">
@@ -308,6 +308,12 @@ const Home = () => {
               </button>
             </div>
           </div>
+        </div>
+        {/* section 7 */}
+        <div className="w-full mx-auto flex justify-center itmes-center">
+            <button className="w-30 h-12 bg-fuchsia-700 text-white rounded-xl font-600">
+                More Projects
+            </button>
         </div>
       </div>
     </>

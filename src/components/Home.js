@@ -1,3 +1,5 @@
+import Download from "../assests/svg/download.svg";
+
 const Home = () => {
   return (
     <div className="container w-2xl">
@@ -24,7 +26,7 @@ const Home = () => {
         </div>
       </div>
       {/* first card */}
-      <div className="w-full h-73 flex justify-between items-center px-10 mt-10 mb-10">
+      <div className="w-full h-73 flex justify-between items-center px-10 mt-10 mb-20">
         <div className="h-full w-[648px]  flex flex-col items-between justify-between">
           <div className="w-full h-51  flex flex-col items-between justify-between">
             <p className="h-32 text-60 font-700 w-69">
@@ -42,16 +44,18 @@ const Home = () => {
           </div>
           <div className="w-full h-26  p-3 flex justify-between items-center ">
             <div className="w-35 h-26 bg-fuchsia-100 flex flex-col items-center justify-center gap-2">
-                <p className="text-40 font-700 text-gray-600">15 Y.</p>
-                <p className="text-gray-500 font-400 text-16">Expirence</p>
+              <p className="text-40 font-700 text-gray-600">15 Y.</p>
+              <p className="text-gray-500 font-400 text-16">Expirence</p>
             </div>
             <div className="w-35 h-26 bg-fuchsia-100 flex flex-col items-center justify-center gap-2">
-                <p className="text-40 font-700 text-gray-600">250+</p>
-                <p className="text-gray-500 font-400 text-16">Project Completed</p>
+              <p className="text-40 font-700 text-gray-600">250+</p>
+              <p className="text-gray-500 font-400 text-16">
+                Project Completed
+              </p>
             </div>
             <div className="w-35 h-26 bg-fuchsia-100 flex flex-col items-center justify-center gap-2">
-               <p className="text-40 font-700 text-gray-600">58</p>
-               <p className="text-gray-500 font-400 text-16">Happy Client</p>
+              <p className="text-40 font-700 text-gray-600">58</p>
+              <p className="text-gray-500 font-400 text-16">Happy Client</p>
             </div>
           </div>
         </div>
@@ -60,6 +64,36 @@ const Home = () => {
         </div>
       </div>
       {/* second card */}
+      <div className="w-full h-73 flex justify-between items-center px-10 mt-20 mb-10">
+        <div className="h-full w-72 bg-lime-200 rounded-xl">
+          <img alt="" />
+        </div>
+        <div className="h-full w-[648px]  flex flex-col items-between justify-between">
+          <div className="w-full h-full  flex flex-col items-between justify-between">
+            <p className="h-30 text-60 font-700 w-full">
+              I am Professional User Experience Designer
+            </p>
+            <p className=" text-gray-600 text-18">
+              I design and develop services for customers specializing creating
+              stylish, modern websites, web services and online stores. My
+              passion is to design digital user experiences.
+            </p>
+            <p className=" text-gray-600 text-18">
+              I design and develop services for customers specializing creating
+              stylish, modern websites, web services.
+            </p>
+            <div className="flex gap-5 items-center ">
+              <button className="h-12 w-28 bg-fuchsia-800 rounded-xl text-white font-600">
+                Say Hello!
+              </button>
+              <button className="h-12 w-34 border border-fuchsia-800 rounded-xl text-fuchsia-800  font-600 flex justify-center items-center gap-5">
+                <img src={Download} alt="download"/>
+                download CV
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 };

@@ -356,6 +356,37 @@ const Home = () => {
             but the majority have suffered alteration.
           </span>
         </div>
+        {/* section 10 */}
+        <div className="mx-auto w-[1320px] h-52 mb-25 flex justify-between items-center">
+          <div className="w-47 h-52 border shadow-xl bg-stone-100 rounded-t-2xl flex flex-col items-center justify-start">
+            <img alt="blog-pics" className="w-full h-39 bg-lime-200 overflow-hidden rounded-t-2xl"/>
+            <div className="w-full h-19 my-auto bg-pink-200 px-6">
+              <p className="text-gray-500 font-400 text-12">22 Oct, 2020 / 246 Comments</p>
+              <p className="text-gray-700 font-600 text-18">Lorem ipsum dolor sit consea. Nulla purus arcu</p>
+            </div>
+          </div>
+          <div className="w-47 h-52 border shadow-xl bg-stone-100 rounded-t-2xl flex flex-col items-center justify-start">
+            <img alt="blog-pics" className="w-full h-39 bg-lime-200 overflow-hidden rounded-t-2xl"/>
+            <div className="w-full h-19 my-auto bg-pink-200 px-6">
+              <p className="text-gray-500 font-400 text-12">22 Oct, 2020 / 246 Comments</p>
+              <p className="text-gray-700 font-600 text-18">Lorem ipsum dolor sit consea. Nulla purus arcu</p>
+            </div>
+          </div>
+          <div className="w-47 h-52 border shadow-xl bg-stone-100 rounded-t-2xl flex flex-col items-center justify-start">
+            <img alt="blog-pics" className="w-full h-39 bg-lime-200 overflow-hidden rounded-t-2xl"/>
+            <div className="w-full h-19 my-auto bg-pink-200 px-6">
+              <p className="text-gray-500 font-400 text-12">22 Oct, 2020 / 246 Comments</p>
+              <p className="text-gray-700 font-600 text-18">Lorem ipsum dolor sit consea. Nulla purus arcu</p>
+            </div>
+          </div>
+          <div className="w-47 h-52 border shadow-xl bg-stone-100 rounded-t-2xl flex flex-col items-center justify-start">
+            <img alt="blog-pics" className="w-full h-39 bg-lime-200 overflow-hidden rounded-t-2xl"/>
+            <div className="w-full h-19 my-auto bg-pink-200 px-6">
+              <p className="text-gray-500 font-400 text-12">22 Oct, 2020 / 246 Comments</p>
+              <p className="text-gray-700 font-600 text-18">Lorem ipsum dolor sit consea. Nulla purus arcu</p>
+            </div>
+          </div>
+        </div>
       </div>
     </>
   );

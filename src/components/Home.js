@@ -388,7 +388,7 @@ const Home = () => {
           </div>
         </div>
         {/* section 11 */}
-        <div className="w-full h-[700px] mt-30 flex justify-between items-center bg-gray-200 px-10 p-10 mb-30">
+        <div className="w-full h-[700px] mt-30 flex justify-between items-center bg-gray-200 px-10 p-10 mb-25">
           <div className="h-40 w-71 flex flex-col itmes-between justify-between">
             <p className="text-50 font-600 text-gray-900">Work Process</p>
             <p className="text-gray-500 font-300">
@@ -415,6 +415,14 @@ const Home = () => {
               <p className="text-gray-500 font-400 text-16">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla purus arcu, varius eget velit non, laoreet imperdiet orci. Mauris ultrices eget lorem ac vestibulum.</p>
             </div>
           </div>
+        </div>
+        {/* section 12 */}
+        <div className="w-full mx-auto flex flex-col items-center justify-between gap-4 mb-17">
+          <span className="text-40 font-500 text-gray-900">Happy CLients</span>
+          <span className="w-[577px] h-12 text-center text-20 font-300 text-gray-500">
+            TThere are many variations of passages of Lorem Ipsum available,
+            but the majority have suffered alteration.
+          </span>
         </div>
       </div>
     </>

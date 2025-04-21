@@ -498,12 +498,16 @@ const Home = () => {
           </div>
         </div>
         {/* section 14 */}
-        <div className="w-full mx-auto flex flex-col items-center justify-between gap-4 mb-17">
+        <div className="w-full mx-auto flex flex-col items-center justify-between gap-4 mb-25">
           <span className="text-40 font-500 text-gray-900">Testimonial</span>
-          <span className="w-[577px] h-12 text-center text-20 font-300 text-gray-500">
+          <span className="w-[577px] h-12 text-center text-20 font-300 text-gray-500 mb-15">
             TThere are many variations of passages of Lorem Ipsum available, but
             the majority have suffered alteration.
           </span>
+          <span className="w-[872px] h-24 text-center text-gray-800 font-700">“Nulla efficitur nisl sit amet velit malesuada dapibus. Duis mollis felis turpis, nec semper odio convallis at. Curabitur imperdiet semper arcu, a finibus arcu suscipit in. Donec quis placerat nibh. Maecenas est purus, eleifend ac cursus sed, tincidunt ut sapien.
+          Morbi ornare elit at libero suscipit porta.”</span>
+          <p className="text-gray-900 font-600">Esther Howard</p>
+          <p className="font-400 text-gray-700">Managing Director, ABC company</p>
         </div>
       </div>
     </>

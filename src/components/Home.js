@@ -10,6 +10,12 @@ import Analyze from "../assests/svg/analyze.svg";
 import Launch from "../assests/svg/launch.svg";
 import Arrow from "../assests/svg/arrow.svg";
 import WhiteArrow from "../assests/svg/white-arrow.svg";
+import Spotify from "../assests/svg/spotify.svg";
+import Google from "../assests/svg/google.svg";
+import Dibble from "../assests/svg/dribble.svg";
+import Linkedin from "../assests/svg/linkedin.svg";
+import Amazon from "../assests/svg/amazon.svg";
+import Medium from "../assests/svg/medium.svg";
 
 const Home = () => {
   return (
@@ -337,14 +343,16 @@ const Home = () => {
         {/* section 8 */}
         <div className="bg-blue-950 h-65 mt-20 flex justify-center items-center mb-25">
           <div className="w-[620px] h-54 flex flex-col items-center justify-between">
-            <p className="text-white font-600 text-50 text-center">Do you have Project Idia? Let's discuss your project!</p>
+            <p className="text-white font-600 text-50 text-center">
+              Do you have Project Idia? Let's discuss your project!
+            </p>
             <p className="text-gray-500 font-500 text-18 text-center">
               There are many variations of passages of Lorem Ipsum available,
               but the majority have suffered alteration.
             </p>
             <button className="bg-fuchsia-600 w-40 h-12 flex items-center gap-3 justify-center rounded-xl">
-                <p className="text-white font-500">Let's work Together</p>
-                <img src={WhiteArrow} alt="arrow"/>
+              <p className="text-white font-500">Let's work Together</p>
+              <img src={WhiteArrow} alt="arrow" />
             </button>
           </div>
         </div>
@@ -352,38 +360,66 @@ const Home = () => {
         <div className="w-full mx-auto flex flex-col items-center justify-between gap-4 mb-17">
           <span className="text-40 font-500 text-gray-900">Blog</span>
           <span className="w-[577px] h-12 text-center text-20 font-300 text-gray-500">
-            TThere are many variations of passages of Lorem Ipsum available,
-            but the majority have suffered alteration.
+            TThere are many variations of passages of Lorem Ipsum available, but
+            the majority have suffered alteration.
           </span>
         </div>
         {/* section 10 */}
         <div className="mx-auto w-[1320px] h-52 mb-25 flex justify-between items-center">
           <div className="w-47 h-52 border shadow-xl bg-stone-100 rounded-t-2xl flex flex-col items-center justify-start">
-            <img alt="blog-pics" className="w-full h-39 bg-lime-200 overflow-hidden rounded-t-2xl"/>
+            <img
+              alt="blog-pics"
+              className="w-full h-39 bg-lime-200 overflow-hidden rounded-t-2xl"
+            />
             <div className="w-full h-19 my-auto bg-pink-200 px-6">
-              <p className="text-gray-500 font-400 text-12">22 Oct, 2020 / 246 Comments</p>
-              <p className="text-gray-700 font-600 text-18">Lorem ipsum dolor sit consea. Nulla purus arcu</p>
+              <p className="text-gray-500 font-400 text-12">
+                22 Oct, 2020 / 246 Comments
+              </p>
+              <p className="text-gray-700 font-600 text-18">
+                Lorem ipsum dolor sit consea. Nulla purus arcu
+              </p>
             </div>
           </div>
           <div className="w-47 h-52 border shadow-xl bg-stone-100 rounded-t-2xl flex flex-col items-center justify-start">
-            <img alt="blog-pics" className="w-full h-39 bg-lime-200 overflow-hidden rounded-t-2xl"/>
+            <img
+              alt="blog-pics"
+              className="w-full h-39 bg-lime-200 overflow-hidden rounded-t-2xl"
+            />
             <div className="w-full h-19 my-auto bg-pink-200 px-6">
-              <p className="text-gray-500 font-400 text-12">22 Oct, 2020 / 246 Comments</p>
-              <p className="text-gray-700 font-600 text-18">Lorem ipsum dolor sit consea. Nulla purus arcu</p>
+              <p className="text-gray-500 font-400 text-12">
+                22 Oct, 2020 / 246 Comments
+              </p>
+              <p className="text-gray-700 font-600 text-18">
+                Lorem ipsum dolor sit consea. Nulla purus arcu
+              </p>
             </div>
           </div>
           <div className="w-47 h-52 border shadow-xl bg-stone-100 rounded-t-2xl flex flex-col items-center justify-start">
-            <img alt="blog-pics" className="w-full h-39 bg-lime-200 overflow-hidden rounded-t-2xl"/>
+            <img
+              alt="blog-pics"
+              className="w-full h-39 bg-lime-200 overflow-hidden rounded-t-2xl"
+            />
             <div className="w-full h-19 my-auto bg-pink-200 px-6">
-              <p className="text-gray-500 font-400 text-12">22 Oct, 2020 / 246 Comments</p>
-              <p className="text-gray-700 font-600 text-18">Lorem ipsum dolor sit consea. Nulla purus arcu</p>
+              <p className="text-gray-500 font-400 text-12">
+                22 Oct, 2020 / 246 Comments
+              </p>
+              <p className="text-gray-700 font-600 text-18">
+                Lorem ipsum dolor sit consea. Nulla purus arcu
+              </p>
             </div>
           </div>
           <div className="w-47 h-52 border shadow-xl bg-stone-100 rounded-t-2xl flex flex-col items-center justify-start">
-            <img alt="blog-pics" className="w-full h-39 bg-lime-200 overflow-hidden rounded-t-2xl"/>
+            <img
+              alt="blog-pics"
+              className="w-full h-39 bg-lime-200 overflow-hidden rounded-t-2xl"
+            />
             <div className="w-full h-19 my-auto bg-pink-200 px-6">
-              <p className="text-gray-500 font-400 text-12">22 Oct, 2020 / 246 Comments</p>
-              <p className="text-gray-700 font-600 text-18">Lorem ipsum dolor sit consea. Nulla purus arcu</p>
+              <p className="text-gray-500 font-400 text-12">
+                22 Oct, 2020 / 246 Comments
+              </p>
+              <p className="text-gray-700 font-600 text-18">
+                Lorem ipsum dolor sit consea. Nulla purus arcu
+              </p>
             </div>
           </div>
         </div>
@@ -403,16 +439,32 @@ const Home = () => {
           </div>
           <div className="w-[648px] h-full flex flex-col justify-between items-center">
             <div className="w-full h-33 bg-white rounded-2xl p-8 flex flex-col jusitfy-start items-start gap-4">
-              <p className="text-gray-800 font-800 text-20">User Experience (UX)</p>
-              <p className="text-gray-500 font-400 text-16">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla purus arcu, varius eget velit non, laoreet imperdiet orci. Mauris ultrices eget lorem ac vestibulum.</p>
+              <p className="text-gray-800 font-800 text-20">
+                User Experience (UX)
+              </p>
+              <p className="text-gray-500 font-400 text-16">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
+                purus arcu, varius eget velit non, laoreet imperdiet orci.
+                Mauris ultrices eget lorem ac vestibulum.
+              </p>
             </div>
             <div className="w-full h-33 bg-white rounded-2xl p-8 flex flex-col jusitfy-start items-start gap-4">
-              <p className="text-gray-800 font-800 text-20">User Interface (UI)</p>
-              <p className="text-gray-500 font-400 text-16">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla purus arcu, varius eget velit non, laoreet imperdiet orci. Mauris ultrices eget lorem ac vestibulum.</p>
+              <p className="text-gray-800 font-800 text-20">
+                User Interface (UI)
+              </p>
+              <p className="text-gray-500 font-400 text-16">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
+                purus arcu, varius eget velit non, laoreet imperdiet orci.
+                Mauris ultrices eget lorem ac vestibulum.
+              </p>
             </div>
             <div className="w-full h-33 bg-white rounded-2xl p-8 flex flex-col jusitfy-start items-start gap-4">
               <p className="text-gray-800 font-800 text-20">Web Development</p>
-              <p className="text-gray-500 font-400 text-16">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla purus arcu, varius eget velit non, laoreet imperdiet orci. Mauris ultrices eget lorem ac vestibulum.</p>
+              <p className="text-gray-500 font-400 text-16">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
+                purus arcu, varius eget velit non, laoreet imperdiet orci.
+                Mauris ultrices eget lorem ac vestibulum.
+              </p>
             </div>
           </div>
         </div>
@@ -420,9 +472,30 @@ const Home = () => {
         <div className="w-full mx-auto flex flex-col items-center justify-between gap-4 mb-17">
           <span className="text-40 font-500 text-gray-900">Happy CLients</span>
           <span className="w-[577px] h-12 text-center text-20 font-300 text-gray-500">
-            TThere are many variations of passages of Lorem Ipsum available,
-            but the majority have suffered alteration.
+            TThere are many variations of passages of Lorem Ipsum available, but
+            the majority have suffered alteration.
           </span>
+        </div>
+        {/* section 13 */}
+        <div className="w-[1320px] h-35 mx-auto mb-25 flex justify-between items-center">
+          <div className="w-35 h-35">
+            <img src={Google} alt="google" />
+          </div>
+          <div className="w-35 h-35">
+            <img src={Dibble} alt="dibble" />
+          </div>
+          <div className="w-35 h-35">
+            <img src={Linkedin} alt="limkedin" />
+          </div>
+          <div className="w-35 h-35">
+            <img src={Amazon} alt="amazon" />
+          </div>
+          <div className="w-35 h-35">
+            <img src={Medium} alt="medium" />
+          </div>
+          <div className="w-35 h-35">
+            <img src={Spotify} alt="spotify" />
+          </div>
         </div>
       </div>
     </>

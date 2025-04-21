@@ -497,6 +497,14 @@ const Home = () => {
             <img src={Spotify} alt="spotify" />
           </div>
         </div>
+        {/* section 14 */}
+        <div className="w-full mx-auto flex flex-col items-center justify-between gap-4 mb-17">
+          <span className="text-40 font-500 text-gray-900">Testimonial</span>
+          <span className="w-[577px] h-12 text-center text-20 font-300 text-gray-500">
+            TThere are many variations of passages of Lorem Ipsum available, but
+            the majority have suffered alteration.
+          </span>
+        </div>
       </div>
     </>
   );

@@ -387,6 +387,35 @@ const Home = () => {
             </div>
           </div>
         </div>
+        {/* section 11 */}
+        <div className="w-full h-[700px] mt-30 flex justify-between items-center bg-gray-200 px-10 p-10 mb-30">
+          <div className="h-40 w-71 flex flex-col itmes-between justify-between">
+            <p className="text-50 font-600 text-gray-900">Work Process</p>
+            <p className="text-gray-500 font-300">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
+              purus arcu, varius eget velit non, laoreet imperdiet orci. Mauris
+              ultrices eget lorem ac vestibulum. Suspendis imperdiet,
+            </p>
+            <p className="text-gray-500 font-300">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
+              purus arcu, varius eget velit non.
+            </p>
+          </div>
+          <div className="w-[648px] h-full flex flex-col justify-between items-center">
+            <div className="w-full h-33 bg-white rounded-2xl p-8 flex flex-col jusitfy-start items-start gap-4">
+              <p className="text-gray-800 font-800 text-20">User Experience (UX)</p>
+              <p className="text-gray-500 font-400 text-16">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla purus arcu, varius eget velit non, laoreet imperdiet orci. Mauris ultrices eget lorem ac vestibulum.</p>
+            </div>
+            <div className="w-full h-33 bg-white rounded-2xl p-8 flex flex-col jusitfy-start items-start gap-4">
+              <p className="text-gray-800 font-800 text-20">User Interface (UI)</p>
+              <p className="text-gray-500 font-400 text-16">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla purus arcu, varius eget velit non, laoreet imperdiet orci. Mauris ultrices eget lorem ac vestibulum.</p>
+            </div>
+            <div className="w-full h-33 bg-white rounded-2xl p-8 flex flex-col jusitfy-start items-start gap-4">
+              <p className="text-gray-800 font-800 text-20">Web Development</p>
+              <p className="text-gray-500 font-400 text-16">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla purus arcu, varius eget velit non, laoreet imperdiet orci. Mauris ultrices eget lorem ac vestibulum.</p>
+            </div>
+          </div>
+        </div>
       </div>
     </>
   );

@@ -9,6 +9,7 @@ import Design from "../assests/svg/design.svg";
 import Analyze from "../assests/svg/analyze.svg";
 import Launch from "../assests/svg/launch.svg";
 import Arrow from "../assests/svg/arrow.svg";
+import WhiteArrow from "../assests/svg/white-arrow.svg";
 
 const Home = () => {
   return (
@@ -140,7 +141,7 @@ const Home = () => {
           </div>
           <div className="w-[648px] h-full flex justify-between items-center">
             <div className="h-full w-46 flex flex-col items-between justify-between">
-              <div className="w-full h-[276px] bg-neutral-100 rounded rounded-full p-8 flex flex-col justify-between">
+              <div className="w-full h-[276px] bg-neutral-100 rounded-xl p-8 flex flex-col justify-between">
                 <div>
                   <img src={Research} alt="research" />
                 </div>
@@ -152,7 +153,7 @@ const Home = () => {
                   </p>
                 </div>
               </div>
-              <div className="w-full h-[276px] bg-neutral-100 rounded rounded-full p-8 flex flex-col justify-between">
+              <div className="w-full h-[276px] bg-neutral-100 rounded-xl p-8 flex flex-col justify-between">
                 <div className="w-18 h-18 flex justify-center items-center bg-stone-200 rounded-xl">
                   <img src={Design} alt="design" />
                 </div>
@@ -166,7 +167,7 @@ const Home = () => {
               </div>
             </div>
             <div className="h-full w-46 flex flex-col items-evenly justify-evenly">
-              <div className="w-full h-[276px] bg-neutral-100 rounded rounded-full p-8 flex flex-col justify-between">
+              <div className="w-full h-[276px] bg-neutral-100 rounded-xl p-8 flex flex-col justify-between">
                 <div className="w-18 h-18 flex justify-center items-center bg-stone-200 rounded-xl">
                   <img src={Analyze} alt="analyze" />
                 </div>
@@ -178,7 +179,7 @@ const Home = () => {
                   </p>
                 </div>
               </div>
-              <div className="w-full h-[276px] bg-neutral-100 rounded rounded-full p-8 flex flex-col justify-between">
+              <div className="w-full h-[276px] bg-neutral-100 rounded-xl p-8 flex flex-col justify-between">
                 <div className="w-18 h-18 flex justify-center items-center bg-stone-200 rounded-xl">
                   <img src={Launch} alt="launch" />
                 </div>
@@ -214,7 +215,10 @@ const Home = () => {
                 Vivamus eleifend convallis ante, non pharetra libero molestie
                 laoreet. Donec id imperdiet lacus.
               </p>
-              <button type="text" className="mt-2 border border-fuchsia-900 border-[2px] rounded-xl w-32 h-12 px-3 py-6 flex justify-center gap-5 items-center">
+              <button
+                type="text"
+                className="mt-2 border border-fuchsia-900 border-[2px] rounded-xl w-32 h-12 px-3 py-6 flex justify-center gap-5 items-center"
+              >
                 <p>Case Study</p>
                 <img src={Arrow} alt="arrow" />
               </button>
@@ -231,7 +235,10 @@ const Home = () => {
                 Vivamus eleifend convallis ante, non pharetra libero molestie
                 laoreet. Donec id imperdiet lacus.
               </p>
-              <button type="text" className="mt-2 border border-fuchsia-900 border-[2px] rounded-xl w-32 h-12 px-3 py-6 flex justify-center gap-5 items-center">
+              <button
+                type="text"
+                className="mt-2 border border-fuchsia-900 border-[2px] rounded-xl w-32 h-12 px-3 py-6 flex justify-center gap-5 items-center"
+              >
                 <p>Case Study</p>
                 <img src={Arrow} alt="arrow" />
               </button>
@@ -248,7 +255,10 @@ const Home = () => {
                 Vivamus eleifend convallis ante, non pharetra libero molestie
                 laoreet. Donec id imperdiet lacus.
               </p>
-              <button type="text" className="mt-2 border border-fuchsia-900 border-[2px] rounded-xl w-32 h-12 px-3 py-6 flex justify-center gap-5 items-center">
+              <button
+                type="text"
+                className="mt-2 border border-fuchsia-900 border-[2px] rounded-xl w-32 h-12 px-3 py-6 flex justify-center gap-5 items-center"
+              >
                 <p>Case Study</p>
                 <img src={Arrow} alt="arrow" />
               </button>
@@ -268,7 +278,10 @@ const Home = () => {
                 Vivamus eleifend convallis ante, non pharetra libero molestie
                 laoreet. Donec id imperdiet lacus.
               </p>
-              <button type="text" className="mt-2 border border-fuchsia-900 border-[2px] rounded-xl w-32 h-12 px-3 py-6 flex justify-center gap-5 items-center">
+              <button
+                type="text"
+                className="mt-2 border border-fuchsia-900 border-[2px] rounded-xl w-32 h-12 px-3 py-6 flex justify-center gap-5 items-center"
+              >
                 <p>Case Study</p>
                 <img src={Arrow} alt="arrow" />
               </button>
@@ -285,7 +298,10 @@ const Home = () => {
                 Vivamus eleifend convallis ante, non pharetra libero molestie
                 laoreet. Donec id imperdiet lacus.
               </p>
-              <button type="text" className="mt-2 border border-fuchsia-900 border-[2px] rounded-xl w-32 h-12 px-3 py-6 flex justify-center gap-5 items-center">
+              <button
+                type="text"
+                className="mt-2 border border-fuchsia-900 border-[2px] rounded-xl w-32 h-12 px-3 py-6 flex justify-center gap-5 items-center"
+              >
                 <p>Case Study</p>
                 <img src={Arrow} alt="arrow" />
               </button>
@@ -302,7 +318,10 @@ const Home = () => {
                 Vivamus eleifend convallis ante, non pharetra libero molestie
                 laoreet. Donec id imperdiet lacus.
               </p>
-              <button type="text" className="mt-2 border border-fuchsia-900 border-[2px] rounded-xl w-32 h-12 px-3 py-6 flex justify-center gap-5 items-center">
+              <button
+                type="text"
+                className="mt-2 border border-fuchsia-900 border-[2px] rounded-xl w-32 h-12 px-3 py-6 flex justify-center gap-5 items-center"
+              >
                 <p>Case Study</p>
                 <img src={Arrow} alt="arrow" />
               </button>
@@ -311,9 +330,23 @@ const Home = () => {
         </div>
         {/* section 7 */}
         <div className="w-full mx-auto flex justify-center itmes-center">
-            <button className="w-30 h-12 bg-fuchsia-700 text-white rounded-xl font-600">
-                More Projects
+          <button className="w-30 h-12 bg-fuchsia-700 text-white rounded-xl font-600">
+            More Projects
+          </button>
+        </div>
+        {/* section 8 */}
+        <div className="bg-blue-950 h-65 mt-20 flex justify-center items-center">
+          <div className="w-[620px] h-54 flex flex-col items-center justify-between">
+            <p className="text-white font-600 text-50 text-center">Do you have Project Idia? Let's discuss your project!</p>
+            <p className="text-gray-500 font-500 text-18 text-center">
+              There are many variations of passages of Lorem Ipsum available,
+              but the majority have suffered alteration.
+            </p>
+            <button className="bg-fuchsia-600 w-40 h-12 flex items-center gap-3 justify-center rounded-xl">
+                <p className="text-white font-500">Let's work Together</p>
+                <img src={WhiteArrow} alt="arrow"/>
             </button>
+          </div>
         </div>
       </div>
     </>

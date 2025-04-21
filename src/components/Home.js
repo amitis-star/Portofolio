@@ -611,10 +611,42 @@ const Home = () => {
                 <p className="text-gray-500 font-400 text-18">Message*</p>
               </div>
             </div>
-            <button className="w-29 h-12 bg-purple-400 rounded-lg flex p-6 items-center justify-start gap-3">
+            <button className="w-29 h-12 bg-purple-600 rounded-lg flex p-6 items-center justify-start gap-3">
               <p className="text-white font-700 text-18">Submit</p>
-              <img src={Send} alt="send" className="w-5 h-5"/>
+              <img src={Send} alt="send" className="w-5 h-5" />
             </button>
+          </div>
+        </div>
+        {/* section 16 */}
+        <div className="relative">
+          <div className="w-full bg-blue-950 h-50 absolute flex justify-center items-center">
+            <div className="w-full h-24 flex justify-around items-center py-5">
+              <div className="w-37 h-full flex gap-4 items-cetner">
+                <span className="bg-fuchsia-800 w-14 h-14 rounded-full flex justify-center items-center text-30 font-500 text-white">
+                  A
+                </span>
+                <p className="text-30 font-500 text-fuchsia-100 text-center my-1">
+                  Amitis
+                </p>
+              </div>
+              <div className="w-[722px] h-full  flex items=center justify-between">
+                <span className="text-gray-100 font-600 py-4 px-4">Home</span>
+                <span className="text-gray-100 font-600 py-4 px-4">About</span>
+                <span className="text-gray-100 font-600 py-4 px-4">
+                  Process
+                </span>
+                <span className="text-gray-100 font-600 py-4 px-4">
+                  Portfolio
+                </span>
+                <span className="text-gray-100 font-600 py-4 px-4">Blog</span>
+                <span className="text-gray-100 font-600 py-4 px-4">
+                  Services
+                </span>
+                <button className="h-full w-26 bg-fuchsia-800 rounded-xl text-white font-600">
+                  Contact
+                </button>
+              </div>
+            </div>
           </div>
         </div>
       </div>

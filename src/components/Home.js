@@ -16,6 +16,11 @@ import Dibble from "../assests/svg/dribble.svg";
 import Linkedin from "../assests/svg/linkedin.svg";
 import Amazon from "../assests/svg/amazon.svg";
 import Medium from "../assests/svg/medium.svg";
+import InEmpty from "../assests/svg/in-empty.svg";
+import FacebookPurple from "../assests/svg/facebook-purple.svg";
+import LocationPurple from "../assests/svg/location-purple.svg";
+import LocationEmpty from "../assests/svg/location-empty.svg";
+import Send from "../assests/svg/send.svg";
 
 const Home = () => {
   return (
@@ -371,7 +376,7 @@ const Home = () => {
               alt="blog-pics"
               className="w-full h-39 bg-lime-200 overflow-hidden rounded-t-2xl"
             />
-            <div className="w-full h-19 my-auto bg-pink-200 px-6">
+            <div className="w-full h-19 my-auto px-6">
               <p className="text-gray-500 font-400 text-12">
                 22 Oct, 2020 / 246 Comments
               </p>
@@ -385,7 +390,7 @@ const Home = () => {
               alt="blog-pics"
               className="w-full h-39 bg-lime-200 overflow-hidden rounded-t-2xl"
             />
-            <div className="w-full h-19 my-auto bg-pink-200 px-6">
+            <div className="w-full h-19 my-auto px-6">
               <p className="text-gray-500 font-400 text-12">
                 22 Oct, 2020 / 246 Comments
               </p>
@@ -399,7 +404,7 @@ const Home = () => {
               alt="blog-pics"
               className="w-full h-39 bg-lime-200 overflow-hidden rounded-t-2xl"
             />
-            <div className="w-full h-19 my-auto bg-pink-200 px-6">
+            <div className="w-full h-19 my-auto px-6">
               <p className="text-gray-500 font-400 text-12">
                 22 Oct, 2020 / 246 Comments
               </p>
@@ -413,7 +418,7 @@ const Home = () => {
               alt="blog-pics"
               className="w-full h-39 bg-lime-200 overflow-hidden rounded-t-2xl"
             />
-            <div className="w-full h-19 my-auto bg-pink-200 px-6">
+            <div className="w-full h-19 my-auto px-6">
               <p className="text-gray-500 font-400 text-12">
                 22 Oct, 2020 / 246 Comments
               </p>
@@ -504,10 +509,113 @@ const Home = () => {
             TThere are many variations of passages of Lorem Ipsum available, but
             the majority have suffered alteration.
           </span>
-          <span className="w-[872px] h-24 text-center text-gray-800 font-700">“Nulla efficitur nisl sit amet velit malesuada dapibus. Duis mollis felis turpis, nec semper odio convallis at. Curabitur imperdiet semper arcu, a finibus arcu suscipit in. Donec quis placerat nibh. Maecenas est purus, eleifend ac cursus sed, tincidunt ut sapien.
-          Morbi ornare elit at libero suscipit porta.”</span>
+          <span className="w-[872px] h-24 text-center text-gray-800 font-700">
+            “Nulla efficitur nisl sit amet velit malesuada dapibus. Duis mollis
+            felis turpis, nec semper odio convallis at. Curabitur imperdiet
+            semper arcu, a finibus arcu suscipit in. Donec quis placerat nibh.
+            Maecenas est purus, eleifend ac cursus sed, tincidunt ut sapien.
+            Morbi ornare elit at libero suscipit porta.”
+          </span>
           <p className="text-gray-900 font-600">Esther Howard</p>
-          <p className="font-400 text-gray-700">Managing Director, ABC company</p>
+          <p className="font-400 text-gray-700">
+            Managing Director, ABC company
+          </p>
+        </div>
+        {/* section 15 */}
+        <div className="w-[1320px] h-[720px] mx-auto p-22 flex justify-between items-center shadow-2xl bg-stone-100  rounded-2xl">
+          <div className="w-66 h-72 flex flex-col justify-between items-start">
+            <div className="w-full h-27 flex flex-col justify-between items-center">
+              <p className="w-full font-700 text-40 h-12.5 text-gray-900">
+                Let’s discuss your Project
+              </p>
+              <p className="w-full h-12 font-400 text-18 text-gray-600">
+                There are many variations of passages of Lorem Ipsu available.
+                but the majority have suffered alte.
+              </p>
+            </div>
+            <div className="w-51 h-47 flex flex-col justify-between items-center">
+              <div className="w-full h-24 bg-white rounded-xl shadow-lg p-6 flex justify-start gap-6 items-center">
+                <img
+                  src={LocationPurple}
+                  alt="location"
+                  className="w-12 h-12"
+                />
+                <div>
+                  <p className="text-gray-600 font-400 text-14">Address:</p>
+                  <p className="text-gray-700 font-600 text-18">
+                    New Mexico 31134
+                  </p>
+                </div>
+              </div>
+              <div className="w-full h-24 bg-white rounded-xl shadow-lg p-6 flex justify-start gap-6 items-center">
+                <img
+                  src={LocationEmpty}
+                  alt="location"
+                  className="w-12 h-12 bg-stone-100 rounded-sm"
+                />
+                <div>
+                  <p className="text-gray-600 font-400 text-14">My Email:</p>
+                  <p className="text-gray-700 font-600 text-18">
+                    mymail@mail.com
+                  </p>
+                </div>
+              </div>
+              <div className="w-full h-24 bg-white rounded-xl shadow-lg p-6 flex justify-start gap-6 items-center">
+                <img
+                  src={LocationEmpty}
+                  alt="location"
+                  className="w-12 h-12 bg-stone-100 rounded-sm"
+                />
+                <div>
+                  <p className="text-gray-600 font-400 text-14">Call Me Now:</p>
+                  <p className="text-gray-700 font-600 text-18">
+                    00-1234 00000
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="w-44 h-12 flex justify-between items-center">
+              <img src={FacebookPurple} alt="facebook" />
+              <img src={Ball} alt=" ball" className="w-12 h-12" />
+              <img src={Be} alt="be" className="w-12 h-12" />
+              <img src={Insta} alt="insta" className="w-12 h-12" />
+              <img src={InEmpty} alt="in" className="w-12 h-12" />
+            </div>
+          </div>
+          <div className="w-74 h-67 flex flex-col justify-between items-start">
+            <div className="w-full h-12">
+              <p className="text-gray-500 font-400 text-16">
+                There are many variations of passages of Lorem Ipsu available,
+                but the majority have suffered alte.
+              </p>
+            </div>
+            <div className="w-full h-46  flex flex-col justify-between">
+              <div className="w-full h-9.5 border-b-2 border-fuchsia-400">
+                <p className="text-fuchsia-500 font-400 text-18">Name*</p>
+              </div>
+              <div className="w-full h-9.5 border-b-2 border-gray-400">
+                <p className="text-gray-500 font-400 text-18">Email*</p>
+              </div>
+              <div className="w-full h-9.5 border-b-2 border-gray-400">
+                <p className="text-gray-500 font-400 text-18">Location</p>
+              </div>
+              <div className="w-full h-9.5 flex justify-between items-center">
+                <div className="w-35 h-9.5 border-b-2 border-gray-400">
+                  <p className="text-gray-500 font-400 text-18">Budget*</p>
+                </div>
+                <div className="w-51 h-9.5 border-b-2 border-gray-400">
+                  <p className="text-gray-500 font-400 text-18">Subject*</p>
+                </div>
+              </div>
+              <div className="w-full h-9.5 border-b-2 border-gray-400">
+                <p className="text-gray-500 font-400 text-18">Message*</p>
+              </div>
+            </div>
+            <button className="w-29 h-12 bg-purple-400 rounded-lg flex p-6 items-center justify-start gap-3">
+              <p className="text-white font-700 text-18">Submit</p>
+              <img src={Send} alt="send" className="w-5 h-5"/>
+            </button>
+          </div>
         </div>
       </div>
     </>

@@ -12,13 +12,13 @@ module.exports = {
     container: {
       center: true,
       padding: {
-        DEFAULT: "28px",
-        md: "880px",
+        DEFAULT: "30px",
+        md: "50px",
         lg: "40px",
       },
     },
     spacing: {
-      '00': "0px",
+      "00": "0px",
       0.2: "0.09px",
       0.1: "1px",
       0: "2px",
@@ -34,7 +34,7 @@ module.exports = {
       7.5: "30px",
       8: "32px",
       9: "36px",
-      9.5:"38px",
+      9.5: "38px",
       10: "40px",
       11: "44px",
       12: "48px",
@@ -101,9 +101,9 @@ module.exports = {
       69: "510px",
       70: "520px",
       71: "530px",
-      72:"540px",
-      73:"550px",
-      74:"560px",
+      72: "540px",
+      73: "550px",
+      74: "560px",
       900: "900px",
     },
     fontSize: {

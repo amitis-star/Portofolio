@@ -112,8 +112,8 @@ const Home = () => {
         </div>
         <div className="grid grid-cols-1 lg:grid-cols-2 items-center px-6 md:px-10 mt-10 mb-20 gap-10 lg:gap-20">
           <div className="w-full flex flex-col lg:flex-row-reverse justify-center lg:justify-start items-center lg:items-start">
-            <div className="bg-lime-200 rounded-xl w-full max-w-xs lg:max-w-none flex justify-center">
-              <img alt="" className="object-cover rounded-xl h-73 w-73" />
+            <div className=" rounded-xl w-full max-w-xs lg:max-w-none flex justify-center">
+              <img alt="" className="object-cover rounded-xl h-73 w-73 " />
             </div>
           </div>
 
@@ -164,7 +164,7 @@ const Home = () => {
         <div className="flex flex-col items-center gap-6 mt-10 mb-10 px-4 md:px-10 lg:px-20">
           <img
             alt=""
-            className="h-72 w-72 md:h-80 md:w-80 lg:h-96 lg:w-96 object-cover rounded-xl bg-lime-200"
+            className="h-72 w-72 md:h-80 md:w-80 lg:h-96 lg:w-96 object-cover rounded-xl "
           />
 
           <span className="w-fit bg-white flex flex-row items-center justify-center gap-4 rounded-xl shadow-md px-4 py-2">
@@ -306,7 +306,7 @@ const Home = () => {
               key={index}
               className="bg-stone-100 flex flex-col justify-between"
             >
-              <img alt="" className="w-full h-41 bg-green-100" />
+              <img alt="" className="w-full h-41" />
               <div className="flex flex-col px-5 sm:px-10 lg:px-20 py-10">
                 <p className="text-12 text-gray-400 mb-5">UI-UX DESIGN</p>
                 <span className="text-18 text-gray-900 font-600 mb-5">
@@ -362,7 +362,7 @@ const Home = () => {
           <div className="border shadow-xl bg-stone-100 rounded-t-2xl flex flex-col items-center justify-start">
             <img
               alt="blog-pics"
-              className="w-full h-39 bg-lime-200 overflow-hidden rounded-t-2xl mb-2"
+              className="w-full h-39  overflow-hidden rounded-t-2xl mb-2"
             />
             <div className="w-full my-auto px-6">
               <p className="text-gray-500 font-400 text-12 mb-2">
@@ -377,7 +377,7 @@ const Home = () => {
           <div className="border shadow-xl bg-stone-100 rounded-t-2xl flex flex-col items-center justify-start">
             <img
               alt="blog-pics"
-              className="w-full h-39 bg-lime-200 overflow-hidden rounded-t-2xl mb-2"
+              className="w-full h-39  overflow-hidden rounded-t-2xl mb-2"
             />
             <div className="w-full my-auto px-6">
               <p className="text-gray-500 font-400 text-12 mb-2">
@@ -392,7 +392,7 @@ const Home = () => {
           <div className="border shadow-xl bg-stone-100 rounded-t-2xl flex flex-col items-center justify-start">
             <img
               alt="blog-pics"
-              className="w-full h-39 bg-lime-200 overflow-hidden rounded-t-2xl mb-2"
+              className="w-full h-39 overflow-hidden rounded-t-2xl mb-2"
             />
             <div className="w-full my-auto px-6">
               <p className="text-gray-500 font-400 text-12 mb-2">
@@ -407,7 +407,7 @@ const Home = () => {
           <div className="border shadow-xl bg-stone-100 rounded-t-2xl flex flex-col items-center justify-start">
             <img
               alt="blog-pics"
-              className="w-full h-39 bg-lime-200 overflow-hidden rounded-t-2xl mb-2"
+              className="w-full h-39 overflow-hidden rounded-t-2xl mb-2"
             />
             <div className="w-full my-auto px-6">
               <p className="text-gray-500 font-400 text-12 mb-2">
